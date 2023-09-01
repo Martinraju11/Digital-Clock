@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.card1 {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #e74f4f;
+  padding-bottom: 15px;
+}
+.alarms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.col {
+  color: #e74f4f;
+  margin: auto;
+  padding: 15px;
+}
+input {
+  margin: 0 10px;
+}
+#wte {
+  font-size: medium;
+  color: #fff;
+  padding-right: 10px;
+}
+
+.card2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  color: #fff;
+  padding-right: 20px;
+}
+
+.card4 {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  color: #fff;
+}
+
+.card3 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.card p,
+.card1 p {
+  font-size: 3rem;
+}
+.alarm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#done {
+  padding: 3px 10px;
+  background-color: #e74f4f;
+  color: #fff;
+  border: 1px solid #e74f4f;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.row {
+  background-color: #111;
+  padding: 15px;
+}
+#alm button {
+  padding: 3px 10px;
+  background-color: #e74f4f;
+  color: #fff;
+  border: 1px solid #e74f4f;
+}
+#alm {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
